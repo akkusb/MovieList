@@ -41,6 +41,7 @@
 		494F2CD521EB97E8009AA5DD /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494F2CD321EB97E8009AA5DD /* MovieTableViewCell.xib */; };
 		494F2CD821EBA95C009AA5DD /* KeyValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F2CD621EBA95C009AA5DD /* KeyValueTableViewCell.swift */; };
 		494F2CD921EBA95C009AA5DD /* KeyValueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494F2CD721EBA95C009AA5DD /* KeyValueTableViewCell.xib */; };
+		494F2CDC21EBB300009AA5DD /* AnalyticsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F2CDB21EBB300009AA5DD /* AnalyticsHelper.swift */; };
 		82EEB0C4E9FCEAFDAB67A681 /* Pods_MovieList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35662140F0811363DD5D310A /* Pods_MovieList.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +106,7 @@
 		494F2CD321EB97E8009AA5DD /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		494F2CD621EBA95C009AA5DD /* KeyValueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueTableViewCell.swift; sourceTree = "<group>"; };
 		494F2CD721EBA95C009AA5DD /* KeyValueTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyValueTableViewCell.xib; sourceTree = "<group>"; };
+		494F2CDB21EBB300009AA5DD /* AnalyticsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		494F2C6B21EB7C95009AA5DD /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
+				494F2CDA21EBB300009AA5DD /* Analytics */,
 				494F2CCF21EB91CE009AA5DD /* Models */,
 				494F2CCC21EB9179009AA5DD /* Service */,
 				494F2CBD21EB8254009AA5DD /* ViewControllers */,
@@ -275,6 +278,14 @@
 				494F2CD021EB91E1009AA5DD /* MovieModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		494F2CDA21EBB300009AA5DD /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				494F2CDB21EBB300009AA5DD /* AnalyticsHelper.swift */,
+			);
+			path = Analytics;
 			sourceTree = "<group>";
 		};
 		4E4812B55041B20FBECA01C2 /* Frameworks */ = {
@@ -506,6 +517,7 @@
 				494F2CC021EB8270009AA5DD /* SplashViewController.swift in Sources */,
 				494F2CB721EB7D9C009AA5DD /* LibraryExtensions.swift in Sources */,
 				494F2CB821EB7D9C009AA5DD /* BaseResponse.swift in Sources */,
+				494F2CDC21EBB300009AA5DD /* AnalyticsHelper.swift in Sources */,
 				494F2C6F21EB7C95009AA5DD /* ViewController.swift in Sources */,
 				494F2C6D21EB7C95009AA5DD /* AppDelegate.swift in Sources */,
 				494F2CBC21EB7D9C009AA5DD /* BaseImageView.swift in Sources */,

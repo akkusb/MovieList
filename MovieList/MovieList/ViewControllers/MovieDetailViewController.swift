@@ -37,6 +37,11 @@ class MovieDetailViewController: BaseViewController, UITableViewDelegate, UITabl
         self.tableView.dataSource = self
         self.tableView.register(UINib.init(nibName: "KeyValueTableViewCell", bundle: nil), forCellReuseIdentifier: "KeyValueTableViewCell")
         self.tableView.reloadData()
+        
+        if let movie = self.movie {
+            AnalyticsHelper.movieDetail(movieModel: movie)
+        }
+        
     }
     
     
