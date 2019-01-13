@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>324796679667-n2nmhkiisdmle3hp8m6mtvbs40iosocg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.324796679667-n2nmhkiisdmle3hp8m6mtvbs40iosocg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDC__FxukvNeRfL4xLp6eQDs_OG5otcfWs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>324796679667</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.burhan.MovieList</string>
+	<key>PROJECT_ID</key>
+	<string>movielist-d2417</string>
+	<key>STORAGE_BUCKET</key>
+	<string>movielist-d2417.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:324796679667:ios:6939281909ad21e5</string>
+	<key>DATABASE_URL</key>
+	<string>https://movielist-d2417.firebaseio.com</string>
+</dict>
+</plist>
