@@ -39,8 +39,6 @@ class SplashViewController: BaseViewController {
                     if remoteConfigFetchStatus == RemoteConfigFetchStatus.success{
                         self.remoteConfig.activateFetched()
                         let splashText = self.remoteConfig[self.remoteConfigParameterName].stringValue
-//                        let splashText = self.remoteConfig.configValue(forKey: self.remoteConfigParameterName)
-                        
                         self.splashTextLabel.text = splashText
                         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+3) {
                             self.navigateToMovieListViewController()
@@ -54,16 +52,13 @@ class SplashViewController: BaseViewController {
             }
         }
         reachability.whenUnreachable = { _ in
-            print("Not reachable")
+            UIHelper.showError(error: ErrorModel.init(description: "Not reachable"))
         }
         
         do {
             try reachability.startNotifier()
-            if reachability.connection != .none{
-                print("Reachable")
-            }
         } catch {
-            print("Unable to start notifier")
+            UIHelper.showError(error: ErrorModel.init(description: "Unable to start notifier"))
         }
     }
 
